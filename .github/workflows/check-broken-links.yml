@@ -1,6 +1,8 @@
 name: Links
 
 on:
+  # TODO: remove push before PR
+  push:
   repository_dispatch:
   workflow_dispatch:
   schedule:
